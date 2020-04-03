@@ -21,7 +21,7 @@ And finally, a Runner which allows us to run the test  with desired options.
 ## BDD Benefits!
 In addition to encouraging collaboration,  thinking functional, ensuring the quality of results, provided by BDD, They also are a source of documentation since they allow us to generate  documents (html, json,Pretty,..) for all the scenarios.
 
-## Practical example 
+## Practical example (Should use java 1.8 in (file -> project structure -> java 1.8))
 After making a general view of BDD tests above, Now, I’ll illustrate how it works in practice with a simple example using Scala. ( you can find this example in my github). So let’s practise!
 
 prerequisite : 
