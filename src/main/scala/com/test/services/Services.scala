@@ -8,7 +8,7 @@ object Services {
 
     df1.join(df2, df1("agencyId") === df2("agencyId"))
        .drop("agencyId")
-       .filter("loan == 'Yes'")
+       .filter("loan == 'true'")
        .filter("agencyLocation == 'Paris'")
        .count()
   }

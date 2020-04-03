@@ -34,9 +34,9 @@ class NumberLoansInParis extends EN with ScalaDsl with Matchers {
     val foundLoanNumberInParis = Services.loanNumberInParis(clientDF,agenciesDF)
 
     assert(expectedLoanNumberInParis.toString == foundLoanNumberInParis.toString)
-}
-}
+  }
 
+}
 
 
 

@@ -8,7 +8,7 @@ import org.junit.runner.RunWith
 @CucumberOptions(
   plugin =Array("json","html:FeaturesReport"),
   features = Array("src/test/resources/features/"),
-  glue = Array("classpath:com.test.spark.wiki.steps")
+  glue = Array("classpath:com.test.steps")
 )
 class Runner
 
